@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F4LC0N — I Saved $500M. They Paid Me $50K.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Particle canvas background -->
+  <canvas id="particles"></canvas>
+
+  <!-- TOP NAV -->
+  <nav class="top-nav">
+    <span class="nav-brand">F4LC0N</span>
+    <div class="nav-links">
+      <a href="https://x.com/i/communities/2033343285578666392" target="_blank" class="nav-btn">Join Community</a>
+      <a href="https://x.com/al_f4lc0n" target="_blank" class="nav-btn">Follow @al_f4lc0n</a>
+      <a href="https://github.com/injective-wall-of-shame/bug-any-account-ordering" target="_blank" class="nav-btn nav-btn-accent">Full Report</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="glitch-container">
+      <h1 class="glitch" data-text="I SAVED $500M">I SAVED $500M</h1>
+    </div>
+    <div class="hero-sub">
+      <span class="typed" id="typed-text"></span><span class="cursor">|</span>
+    </div>
+    <div class="scroll-hint">
+      <span>SCROLL FOR THE TRUTH</span>
+      <div class="arrow-down"></div>
+    </div>
+  </section>
+
+  <!-- WHO IS F4LC0N -->
+  <section class="section" id="who">
+    <div class="container">
+      <h2 class="reveal">WHO IS <span class="accent">F4LC0N</span>?</h2>
+      <p class="reveal delay-1">A security researcher. A bug hunter. Someone who protects protocols — not exploits them.</p>
+      <div class="stats reveal delay-2">
+        <div class="stat-card">
+          <span class="stat-icon">🏆</span>
+          <span class="stat-label">#1 Attackathon</span>
+          <span class="stat-detail">Stacks</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-icon">🏆</span>
+          <span class="stat-label">#2 Attackathon</span>
+          <span class="stat-detail">Stacks II</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-icon">🏆</span>
+          <span class="stat-label">#1 Attackathon</span>
+          <span class="stat-detail">XRPL Lending</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-icon">🐛</span>
+          <span class="stat-label">Critical + High</span>
+          <span class="stat-detail">Bug Bounties</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE VULNERABILITY -->
+  <section class="section dark" id="vuln">
+    <div class="container">
+      <h2 class="reveal">THE <span class="danger">CRITICAL</span> VULNERABILITY</h2>
+      <div class="vuln-box reveal delay-1">
+        <p class="vuln-text">Any user could <strong>directly drain any account</strong> on the Injective chain.</p>
+        <p class="vuln-sub">No special permissions needed.</p>
+      </div>
+      <div class="counter-section reveal delay-2">
+        <div class="big-number">
+          <span class="dollar">$</span>
+          <span class="count" data-target="500000000">0</span>
+        </div>
+        <p class="counter-label">IN ON-CHAIN ASSETS WERE AT RISK</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section class="section" id="timeline">
+    <div class="container">
+      <h2 class="reveal">TIMELINE OF <span class="accent">EVENTS</span></h2>
+      <div class="timeline">
+        <div class="timeline-item reveal" data-status="good">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Vulnerability Discovered</h3>
+            <p>F4LC0N identifies a critical vulnerability in Injective Protocol capable of draining any account.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal" data-status="good">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Reported Through Immunefi</h3>
+            <p>The bug is responsibly disclosed through the proper channel — Immunefi's bug bounty platform.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal" data-status="good">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Mainnet Upgrade Rushed</h3>
+            <p>The very next day, Injective pushes a mainnet upgrade to governance vote. They understood the severity.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal" data-status="bad">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>3 Months of Silence</h3>
+            <p>No follow up. No technical discussion. No communication. Nothing. Complete radio silence.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal" data-status="bad">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Lowball Offer: $50K</h3>
+            <p>After 3 months, Injective offers $50K for a Critical vulnerability — their own program's max payout is $500K. No explanation given.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal" data-status="bad">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Dispute Filed</h3>
+            <p>F4LC0N disputes the decision. Silence again. No conversation at all.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal" data-status="bad">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Still Unpaid</h3>
+            <p>To be clear: even the $50K has not been paid. Zero dollars for saving $500 million.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE MATH -->
+  <section class="section dark" id="math">
+    <div class="container">
+      <h2 class="reveal">THE <span class="danger">MATH</span></h2>
+      <div class="comparison reveal delay-1">
+        <div class="compare-card saved">
+          <span class="compare-label">ASSETS SAVED</span>
+          <span class="compare-value">$500,000,000</span>
+        </div>
+        <div class="compare-vs">
+          <span>vs</span>
+        </div>
+        <div class="compare-card offered">
+          <span class="compare-label">BOUNTY OFFERED</span>
+          <span class="compare-value">$50,000</span>
+        </div>
+      </div>
+      <div class="percentage reveal delay-2">
+        <p>That's <span class="danger big">0.01%</span> of what was saved.</p>
+        <p class="sub">Their own program's maximum for Critical is <span class="accent">$500,000</span>.</p>
+      </div>
+      <div class="unpaid-banner reveal delay-3">
+        <p>AND THEY DIDN'T EVEN PAY THE $50K</p>
+        <p class="unpaid-sub">$0 paid. Zero. Nothing. Not a single dollar.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- THE PLEDGE -->
+  <section class="section" id="pledge">
+    <div class="container">
+      <h2 class="reveal"><span class="accent">THE PLEDGE</span></h2>
+      <blockquote class="reveal delay-1">
+        <p>"I will dedicate 10% of all my future bug bounty earnings to making sure this story stays visible — until Injective pays what I deserve."</p>
+        <cite>— f4lc0n</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- JUSTICE -->
+  <section class="section dark" id="justice">
+    <div class="container">
+      <div class="justice-text reveal">
+        <h2 class="massive">WE WANT</h2>
+        <h2 class="massive accent glow">JUSTICE</h2>
+      </div>
+      <div class="actions reveal delay-1">
+        <a href="https://x.com/i/communities/2033343285578666392" target="_blank" class="btn">Join the Community</a>
+        <a href="https://x.com/al_f4lc0n" target="_blank" class="btn btn-outline">Follow @al_f4lc0n</a>
+        <a href="https://github.com/injective-wall-of-shame/bug-any-account-ordering" target="_blank" class="btn btn-outline">Read Full Report</a>
+      </div>
+      <p class="reveal delay-2 footer-note">Protecting $500M should mean something.<br>Hold protocols accountable.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>F4LC0N &mdash; Security Researcher &mdash; Bug Hunter &mdash; Truth Teller</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
